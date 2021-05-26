@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:contentDescription="@string/homepage"
+        android:icon="@drawable/sel_btn_home_page"
+        android:title="@string/homepage" />
+    <item
+        android:id="@+id/community"
+        android:contentDescription="@string/community"
+        android:icon="@drawable/sel_btn_community"
+        android:title="@string/community" />
+    <item
+        android:id="@+id/notification"
+        android:contentDescription="@string/notification"
+        android:icon="@drawable/sel_btn_notification"
+        android:title="@string/notification" />
+    <item
+        android:id="@+id/mine"
+        android:contentDescription="@string/mine"
+        android:icon="@drawable/sel_btn_mine"
+        android:title="@string/mine" />
+
+</menu>

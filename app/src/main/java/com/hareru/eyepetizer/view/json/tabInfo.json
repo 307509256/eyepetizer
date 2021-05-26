@@ -1,0 +1,41 @@
+{
+  "tabInfo": {
+    "tabList": [
+      {
+        "id": -1,
+        "name": "推荐",
+        "apiUrl": "http://baobab.kaiyanapp.com/api/v1/tag/videos?id=16",
+        "tabType": 0,
+        "nameType": 0
+      },
+      {
+        "id": -2,
+        "name": "广场",
+        "apiUrl": "http://baobab.kaiyanapp.com/api/v6/tag/dynamics?id=16",
+        "tabType": 0,
+        "nameType": 0
+      }
+    ],
+    "defaultIdx": 0
+  },
+  "tagInfo": {
+    "dataType": "TagInfo",
+    "id": 16,
+    "name": "广告",
+    "description": "为广告人的精彩创意点赞",
+    "headerImage": "http://img.kaiyanapp.com/3054658dbd559ac42c4c282e9cab7a32.jpeg?imageMogr2/quality/100",
+    "bgPicture": "http://img.kaiyanapp.com/e41e74fe73882b552de00d95d56748d2.jpeg?imageMogr2/quality/60",
+    "actionUrl": null,
+    "recType": 0,
+    "follow": {
+      "itemType": "tag",
+      "itemId": 16,
+      "followed": false
+    },
+    "tagFollowCount": 64876,
+    "tagVideoCount": 34987,
+    "tagDynamicCount": 425,
+    "lookCount": 427144,
+    "shareLinkUrl": "http://www.kaiyanapp.com/campaign/tag_square/tag_square.html?tid=16&utm_campaign=routine&utm_medium=share&pageSource=tagSquare"
+  }
+}

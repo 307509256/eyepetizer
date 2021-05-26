@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hareru.eyepetizer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eyepetizer_hareru"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MainActivity" />
+        <activity
+            android:name=".ui.videodetail.VideoDetailActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/Eyepetizer.AppTheme.Translucent.NoTransition.true" />
+        <activity
+            android:name=".ui.search.SearchActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Eyepetizer.AppTheme.Translucent.NoTransition.true" />
+        <activity
+            android:name=".ui.tag.TagActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="tag"
+                    android:scheme="eyepetizer" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.webview.WebViewActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="webview"
+                    android:scheme="eyepetizer" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

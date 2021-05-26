@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Eyepetizer_hareru" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/noto_regular</item>
+    </style>
+
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_splash_activity</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="VideoDurationTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">3.5dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingEnd">3.5dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@drawable/shape_time_radius_black_2dp_bg</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ededed</item>
+    </style>
+
+    <style name="FollowTextView">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:background">@drawable/shape_follow_radius_black_2dp_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/plus_follow</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Eyepetizer.AppTheme.Translucent" parent="@style/Theme.Eyepetizer_hareru">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="Eyepetizer.AppTheme.Translucent.NoTransition" parent="@style/Eyepetizer.AppTheme.Translucent" />
+
+    <style name="Eyepetizer.AppTheme.Translucent.NoTransition.true" parent="@style/Eyepetizer.AppTheme.Translucent.NoTransition">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <color name="screen_background">#ffffffff</color>
+</resources>

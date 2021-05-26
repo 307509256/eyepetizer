@@ -1,0 +1,10 @@
+{
+  "dataType": "Banner",
+  "id": 2326,
+  "title": "mini杂志",
+  "description": "",
+  "image": "http://img.kaiyanapp.com/5abd51b35e6f0cfb9c00b9b9417c703d.jpeg?imageMogr2/quality/60/format/jpg",
+  "actionUrl": "eyepetizer://webview/?title=&url=https%3A%2F%2Fh5.eyepetizer.net%2Fv1%2Fad%2Fmini-magazine",
+  "shade": false,
+  "autoPlay": false
+}

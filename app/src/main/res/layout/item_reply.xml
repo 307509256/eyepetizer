@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNickName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@id/tvLikeCount"
+        app:layout_constraintStart_toEndOf="@id/ivAvatar"
+        app:layout_constraintTop_toTopOf="@id/ivAvatar" />
+
+    <TextView
+        android:id="@+id/tvLikeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/ivLike"
+        app:layout_constraintEnd_toStartOf="@id/ivLike"
+        app:layout_constraintTop_toTopOf="@id/ivLike" />
+
+    <ImageView
+        android:id="@+id/ivLike"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="14dp"
+        android:paddingStart="5dp"
+        android:src="@drawable/ic_like"
+        android:tintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvReplyUser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="回复@xxx"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/tvNickName"
+        app:layout_constraintTop_toBottomOf="@id/tvNickName" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@id/ivLike"
+        app:layout_constraintStart_toStartOf="@id/tvNickName"
+        app:layout_constraintTop_toBottomOf="@id/tvReplyUser" />
+
+    <androidx.constraintlayout.widget.Group
+
+        android:id="@+id/groupReply"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_radius_black_alpha_85_4dp_bg"
+        android:visibility="gone"
+        app:constraint_referenced_ids="tvReplyUser,ivReplyAvatar,tvReplyNickName,tvReplyMessage,tvShowConversation"
+        app:layout_constraintBottom_toBottomOf="@id/tvReplyMessage"
+        app:layout_constraintEnd_toEndOf="@id/ivLike"
+        app:layout_constraintStart_toStartOf="@id/tvMessage"
+        app:layout_constraintTop_toBottomOf="@id/tvMessage" />
+
+    <ImageView
+        android:id="@+id/ivReplyAvatar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="@id/groupReply"
+        app:layout_constraintTop_toTopOf="@id/tvReplyNickName" />
+
+    <TextView
+        android:id="@+id/tvReplyNickName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@id/groupReply"
+        app:layout_constraintStart_toEndOf="@id/ivReplyAvatar"
+        app:layout_constraintTop_toTopOf="@id/groupReply" />
+
+    <TextView
+        android:id="@+id/tvReplyMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tvReplyNickName"
+        app:layout_constraintStart_toStartOf="@id/tvReplyNickName"
+        app:layout_constraintTop_toBottomOf="@id/tvReplyNickName" />
+
+
+    <TextView
+        android:id="@+id/tvShowConversation"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="查看对话"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvReply"
+        app:layout_constraintStart_toStartOf="@id/tvMessage"
+        app:layout_constraintTop_toTopOf="@id/tvReply" />
+
+    <TextView
+        android:id="@+id/tvReply"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="回复"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@id/tvShowConversation"
+        app:layout_constraintTop_toBottomOf="@id/groupReply"
+        app:layout_goneMarginStart="0dp"
+        app:layout_goneMarginTop="6dp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvReply"
+        app:layout_constraintStart_toEndOf="@id/tvReply"
+        app:layout_constraintTop_toTopOf="@id/tvReply" />
+
+    <ImageView
+        android:id="@+id/ivMore"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/ic_more_horiz_white_24dp"
+        app:layout_constraintBottom_toBottomOf="@id/tvTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTime" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tvNickName"
+        app:layout_constraintTop_toBottomOf="@id/tvReply" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

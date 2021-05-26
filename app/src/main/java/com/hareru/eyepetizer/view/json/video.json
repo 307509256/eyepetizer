@@ -1,0 +1,144 @@
+{
+  "dataType": "VideoBeanForClient",
+  "id": 250225,
+  "title": "没有土壤，也能养一室花园",
+  "description": "本片中 Audrie Storme 无水栽培的植物分别是罗勒、胡椒薄荷、迷迭香、牛至、茴香、猫薄荷。无水绿培要求水质干净且不能一直让阳光直晒而导致水温过高，夏季种植还需注意是否有蚊虫在水中产卵。Audrie Storme 是一位分享生活的博主，她的每条视频都至少有数十万播放量。From Audrie Storme",
+  "library": "DAILY",
+  "tags": [
+    {
+      "id": 666,
+      "name": "生活",
+      "actionUrl": "eyepetizer://tag/666/?title=%E7%94%9F%E6%B4%BB",
+      "desc": "匠心、健康、生活感悟",
+      "bgPicture": "http://img.kaiyanapp.com/95ba262a92ac99db76794ca56233d5d1.jpeg?imageMogr2/quality/60/format/jpg",
+      "headerImage": "http://img.kaiyanapp.com/314a1e399de4c5708058e7f391619647.jpeg?imageMogr2/quality/60/format/jpg",
+      "tagRecType": "NORMAL",
+      "haveReward": false,
+      "ifNewest": false,
+      "communityIndex": 0
+    }
+  ],
+  "consumption": {
+    "collectionCount": 1069,
+    "shareCount": 269,
+    "replyCount": 16,
+    "realCollectionCount": 716
+  },
+  "resourceType": "video",
+  "provider": {
+    "name": "YouTube",
+    "alias": "youtube",
+    "icon": "http://img.kaiyanapp.com/fa20228bc5b921e837156923a58713f6.png"
+  },
+  "category": "生活",
+  "author": {
+    "id": 2165,
+    "icon": "http://img.kaiyanapp.com/924ebc6780d59925c8a346a5dafc90bb.jpeg",
+    "name": "开眼生活精选",
+    "description": "匠心、健康、生活感悟",
+    "link": "",
+    "latestReleaseTime": 1619830815000,
+    "videoNum": 162,
+    "follow": {
+      "itemType": "author",
+      "itemId": 2165,
+      "followed": false
+    },
+    "shield": {
+      "itemType": "author",
+      "itemId": 2165,
+      "shielded": false
+    },
+    "approvedNotReadyVideoCount": 0,
+    "ifPgc": true,
+    "recSort": 0,
+    "expert": false
+  },
+  "cover": {
+    "feed": "http://img.kaiyanapp.com/5f7b4a1c1f69aa80d1718c98d5bcf214.jpeg?imageMogr2/quality/60/format/jpg",
+    "detail": "http://img.kaiyanapp.com/5f7b4a1c1f69aa80d1718c98d5bcf214.jpeg?imageMogr2/quality/60/format/jpg",
+    "blurred": "http://img.kaiyanapp.com/07d49ef29aedf5a7ad79124cf2e88ca4.jpeg?imageMogr2/quality/60/format/jpg",
+    "homepage": "http://img.kaiyanapp.com/5f7b4a1c1f69aa80d1718c98d5bcf214.jpeg?imageView2/1/w/720/h/560/format/jpg/q/75|watermark/1/image/aHR0cDovL2ltZy5rYWl5YW5hcHAuY29tL2JsYWNrXzMwLnBuZw==/dissolve/100/gravity/Center/dx/0/dy/0|imageslim"
+  },
+  "playUrl": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=default&source=aliyun&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e",
+  "duration": 422,
+  "webUrl": {
+    "raw": "http://www.eyepetizer.net/detail.html?vid=250225",
+    "forWeibo": "https://m.eyepetizer.net/u1/video-detail?video_id=250225&resource_type=video&utm_campaign=routine&utm_medium=share&utm_source=weibo&uid=0"
+  },
+  "releaseTime": 1619830815000,
+  "playInfo": [
+    {
+      "height": 270,
+      "width": 480,
+      "urlList": [
+        {
+          "name": "aliyun",
+          "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=low&source=aliyun&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e",
+          "size": 13969086
+        },
+        {
+          "name": "ucloud",
+          "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=low&source=ucloud&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e",
+          "size": 13969086
+        }
+      ],
+      "name": "流畅",
+      "type": "low",
+      "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=low&source=aliyun&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e"
+    },
+    {
+      "height": 480,
+      "width": 854,
+      "urlList": [
+        {
+          "name": "aliyun",
+          "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e",
+          "size": 31567742
+        },
+        {
+          "name": "ucloud",
+          "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=normal&source=ucloud&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e",
+          "size": 31567742
+        }
+      ],
+      "name": "标清",
+      "type": "normal",
+      "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=normal&source=aliyun&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e"
+    },
+    {
+      "height": 720,
+      "width": 1280,
+      "urlList": [
+        {
+          "name": "aliyun",
+          "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e",
+          "size": 48633847
+        },
+        {
+          "name": "ucloud",
+          "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=high&source=ucloud&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e",
+          "size": 48633847
+        }
+      ],
+      "name": "高清",
+      "type": "high",
+      "url": "http://baobab.kaiyanapp.com/api/v1/playUrl?vid=250225&resourceType=video&editionType=high&source=aliyun&playUrlType=url_oss&udid=1cee16b591a9434f9dd3b28bd49b8e8f21069b1e"
+    }
+  ],
+  "type": "NORMAL",
+  "remark": "没有土壤，也能养一室花园\n生活日常 无土绿植培养",
+  "ifLimitVideo": false,
+  "searchWeight": 0,
+  "videoPosterBean": {
+    "scale": 0.725,
+    "url": "http://eyepetizer-videos.oss-cn-beijing.aliyuncs.com/video_poster_share/8cc72d6d5d5d6e4c1af4c992a93b6834.mp4",
+    "fileSizeStr": "3.81MB"
+  },
+  "idx": 0,
+  "date": 1619830815000,
+  "descriptionEditor": "本片中 Audrie Storme 无水栽培的植物分别是罗勒、胡椒薄荷、迷迭香、牛至、茴香、猫薄荷。无水绿培要求水质干净且不能一直让阳光直晒而导致水温过高，夏季种植还需注意是否有蚊虫在水中产卵。Audrie Storme 是一位分享生活的博主，她的每条视频都至少有数十万播放量。From Audrie Storme",
+  "collected": false,
+  "reallyCollected": false,
+  "played": false
+}

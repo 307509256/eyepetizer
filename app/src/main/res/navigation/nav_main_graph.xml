@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.hareru.eyepetizer.ui.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/community"
+        android:name="com.hareru.eyepetizer.ui.EmptyFragment"
+        android:label="MainFragment1" />
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.hareru.eyepetizer.ui.EmptyFragment"
+        android:label="MainFragment2" />
+    <fragment
+        android:id="@+id/mine"
+        android:name="com.hareru.eyepetizer.ui.EmptyFragment"
+        android:label="MainFragment3" />
+</navigation>
